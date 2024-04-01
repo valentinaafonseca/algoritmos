@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-31 10:02:55 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7REVTS1RPUC1RNUZLNFNROzIwMjQtMDEtMzE7IjA4OjAxOjMyICI7MzkzOQ=="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7REVTS1RPUC1RNUZLNFNROzIwMjQtMDEtMzE7IjEwOjAyOjU1ICI7MTs0MDQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <for variable="a" start="2" end="9" direction="inc" step="1">
+                <for variable="b" start="1" end="10" direction="inc" step="1">
+                    <assign variable="c" expression="a*b"/>
+                    <output expression="a &amp; &quot;x&quot; &amp; b &amp; &quot;=&quot; &amp; c" newline="True"/>
+                </for>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

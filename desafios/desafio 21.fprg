@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 04:30:57 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwNDoyNzowNiAiOzMxMzQ="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwNDozMDo1NyAiOzE7MzI0Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, QAD, DIF" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <assign variable="QAD" expression="(A-B)^2"/>
+            <assign variable="DIF" expression="(A+B)*(A-B)"/>
+            <output expression="&quot;O QUADRADO DA FIFEREN&#199;A &#201;.&quot;" newline="True"/>
+            <output expression="QAD" newline="True"/>
+            <output expression="&quot;A DIFEREN&#199;A DOS QUADRADOS &#201;.&quot;" newline="True"/>
+            <output expression="DIF" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

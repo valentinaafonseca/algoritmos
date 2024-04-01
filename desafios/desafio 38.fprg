@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 03:01:25 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA2OyIwMjo1ODozMyAiOzMxMzg="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA2OyIwMzowMToyNSAiOzE7MzIzNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="soma, subtra&#231;ao, Ai, i" type="Integer" array="False" size=""/>
+            <input variable="soma"/>
+            <input variable="subtra&#231;ao"/>
+            <output expression="soma" newline="True"/>
+            <output expression="subtra&#231;ao" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

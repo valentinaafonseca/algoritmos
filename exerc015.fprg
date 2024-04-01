@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-19 09:06:38 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAyLTE0OyIwNzo0MToyNiAiOzMxMzU="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAyLTE5OyIwOTowNjozOCAiOzQ7MzI1Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="diastrab" type="Integer" array="False" size=""/>
+            <declare name="salario, inss, bcir, vt, vr, saliq" type="Real" array="False" size=""/>
+            <for variable="i" start="1" end="5" direction="inc" step="1">
+                <input variable="nome"/>
+                <input variable="salario"/>
+                <input variable="diastrab"/>
+            </for>
+            <assign variable="salario" expression="(salario/30) * diastrab"/>
+            <assign variable="vt" expression="salario * 0.06"/>
+            <assign variable="vt" expression="salario * 0.01"/>
+            <if expression="salario &gt; 0 &amp;&amp; salario &lt;= 1412">
+                <then>
+                    <assign variable="inss" expression="salario*0.075"/>
+                </then>
+                <else>
+                    <if expression="salario &lt;= 2666.68">
+                        <then>
+                            <assign variable="inss" expression="(salario * 0.09) -21.18"/>
+                        </then>
+                        <else>
+                            <if expression="salario &lt;= 4000.03">
+                                <then>
+                                    <assign variable="inss" expression="(salario * 0.12) -101.18"/>
+                                </then>
+                                <else>
+                                    <if expression="salario &lt;=7786.02">
+                                        <then>
+                                            <assign variable="inss" expression="(salario * 0.14) -181.18"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;INSS&quot; &amp; inss" newline="True"/>
+            <assign variable="bcir" expression="salario - inss"/>
+            <if expression="bcir &lt;= 2112">
+                <then>
+                    <assign variable="ir" expression="0.00"/>
+                </then>
+                <else>
+                    <if expression="bcir &lt;= 2826.65">
+                        <then>
+                            <assign variable="ir" expression="(bcir * 0.075) -158.40"/>
+                        </then>
+                        <else>
+                            <if expression="bcir &lt;= 3751.05">
+                                <then>
+                                    <assign variable="ir" expression="(bcir * 0.15) -370.40"/>
+                                </then>
+                                <else>
+                                    <if expression="bcir &lt;= 4664.68">
+                                        <then>
+                                            <assign variable="ir" expression="(bcir * 0225) - 651.73"/>
+                                        </then>
+                                        <else>
+                                            <assign variable="ir" expression="(bcir * 0.275) -884.96"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="ir" newline="True"/>
+            <output expression="vt" newline="True"/>
+            <output expression="vr" newline="True"/>
+            <assign variable="saliq" expression="salario-inss-ir-vt-vr"/>
+        </body>
+    </function>
+    <function name="INSS" type="None" variable="">
+        <parameters>
+            <parameter name="salario" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="INSS" type="Real" array="False" size=""/>
+            <if expression="salario &gt; 0 &amp;&amp; salario &lt;= 1412">
+                <then>
+                    <assign variable="inss" expression="salario*0.075"/>
+                </then>
+                <else>
+                    <if expression="salario &lt;= 2666.68">
+                        <then>
+                            <assign variable="inss" expression="(salario * 0.09) -21.18"/>
+                        </then>
+                        <else>
+                            <if expression="salario &lt;= 4000.03">
+                                <then>
+                                    <assign variable="inss" expression="(salario * 0.12) -101.18"/>
+                                </then>
+                                <else>
+                                    <if expression="salario &lt;=7786.02">
+                                        <then>
+                                            <assign variable="inss" expression="(salario * 0.14) -181.18"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="ir" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+</flowgorithm>

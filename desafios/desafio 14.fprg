@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:49:47 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwMjo0NjowNCAiOzMxMzE="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwMjo0OTo0NyAiOzE7MzI0OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cl, fh, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;1.Fahr para Celsius&quot;" newline="True"/>
+            <output expression="&quot;2.Fahr para Celsius&quot;" newline="True"/>
+            <input variable="i"/>
+            <if expression="i==2">
+                <then>
+                    <input variable="cl"/>
+                    <assign variable="fh" expression="(cl*9/5)+32"/>
+                    <output expression="fh" newline="True"/>
+                </then>
+                <else>
+                    <input variable="fh"/>
+                    <assign variable="cl" expression="(fh-32)*5/9"/>
+                    <output expression="cl" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 10:04:06 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA2OyIxMDowMzo1NSAiOzMxMzE="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA2OyIxMDowMzo1OCAiOzE7Z2lvdmFubmEubHV6O05UMzQ7MjAyNC0wMy0wNDsiMDg6NDI6NDYgIjtEZXNhZmlvMDA0LmZwcmc7NzM4Nw=="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA2OyIxMDowNDowNiAiOzE7MzIzNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="CDU, C, D, U" type="Integer" array="False" size=""/>
+            <input variable="C"/>
+            <input variable="D"/>
+            <input variable="U"/>
+            <output expression="U&amp;D&amp;C" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

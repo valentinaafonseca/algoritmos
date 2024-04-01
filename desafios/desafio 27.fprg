@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 10:11:15 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA2OyIxMDowOToxNCAiOzMxMzI="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA2OyIxMDoxMDo1MiAiOzM7Z2lvdmFubmEubHV6O05UMzQ7MjAyNC0wMy0wNjsiMDk6MDY6MjQgIjtEZXNhZmlvMDI3LmZwcmc7NzM4NQ=="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA2OyIxMDoxMToxNSAiOzE7MzIzNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numA, numB, numC" type="Integer" array="False" size=""/>
+            <input variable="numA"/>
+            <input variable="numB"/>
+            <input variable="numC"/>
+            <if expression="numA+numB">
+                <then>
+                    <if expression="numB=numC">
+                        <then>
+                            <output expression="&quot;esse triangulo e acutangulo pois os todos os seus angulos s&#227;o menores que 90 graus&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;esse triangulo e retangulo pois um dos seus angulos forma 90 graus&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="numB=numC">
+                        <then/>
+                        <else>
+                            <output expression="&quot;esse triangulo e obtusangulo pois os angulos internos s&#227;o maiores que 90 graus&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <if expression="(numA+numB)&gt;numC">
+                <then>
+                    <output expression="&quot;&#233; possivel formar um triangulo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;n&#227;o &#233; possivel formar um triangulo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

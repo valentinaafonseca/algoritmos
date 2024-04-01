@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:51:41 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwMjo0OTo0OSAiOzMxNDM="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwMjo1MTo0MSAiOzE7MzIzNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, r, v" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="r"/>
+            <assign variable="v" expression="pi*r^2*A"/>
+            <output expression="&quot;O volume da sua latinha &#233; de &quot;&amp; v" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

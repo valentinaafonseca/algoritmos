@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 04:25:05 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwNDoxMzoyMiAiOzMxMjc="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwNDoyNTowNSAiOzI7MzI0MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NUME, DENO, FRACAO1, FRACAO2, MULTIPLICACAO, SOMA" type="Real" array="False" size=""/>
+            <input variable="NUME"/>
+            <input variable="DENO"/>
+            <assign variable="FRACAO1" expression="NUME/DENO"/>
+            <output expression="&quot;FRACAO 1:&quot;" newline="True"/>
+            <output expression="FRACAO1" newline="True"/>
+            <assign variable="FRACAO02" expression="DENO/NUME"/>
+            <output expression="&quot;FRACAO 2:&quot;" newline="True"/>
+            <output expression="FRACAO2" newline="True"/>
+            <assign variable="MULTIPLICA&#199;AO" expression="(FRACAO1)*(FRACAO2)"/>
+            <output expression="&quot;MULTIPLICA&#199;AO DAS FRA&#199;OS&quot;" newline="True"/>
+            <output expression="MULTIPLICACAO" newline="True"/>
+            <assign variable="SOMA" expression="FRACAO1+FRACAO2"/>
+            <output expression="&quot;SOMA DAS FRA&#199;OES&quot;" newline="True"/>
+            <output expression="SOMA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

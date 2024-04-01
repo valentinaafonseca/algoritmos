@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-24 01:34:27 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7REVTS1RPUC1RNUZLNFNROzIwMjQtMDEtMjQ7IjEwOjUxOjUxICI7Mzk0MA=="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7REVTS1RPUC1RNUZLNFNROzIwMjQtMDEtMjQ7IjAxOjM0OjI3ICI7Mjs0MDUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, delta" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="delta" expression="b^2-4*a*c"/>
+            <declare name="" type="Integer" array="False" size=""/>
+            <output expression="delta" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

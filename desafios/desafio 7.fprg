@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:09:12 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIxMDoyNjoyOSAiOzMxMzU="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwMjowOToxMiAiOzc7MzI0Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, altura, perimetro, area, diagonal, b, h, P&#178;, a" type="Integer" array="False" size=""/>
+            <input variable="b"/>
+            <input variable="h"/>
+            <assign variable="perimetro" expression="2*(b+h)"/>
+            <output expression="perimetro" newline="True"/>
+            <assign variable="area" expression="b*h"/>
+            <output expression="area" newline="True"/>
+            <assign variable="diagonal" expression="((b^2)+(h^2))^0.5"/>
+            <output expression="diagonal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

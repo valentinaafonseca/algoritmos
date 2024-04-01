@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 04:33:07 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwNDozMToxNyAiOzMxMzE="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwNDozMzowNyAiOzE7MzI0MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="LADOS, DIAGONAIS" type="Integer" array="False" size=""/>
+            <input variable="LADOS"/>
+            <assign variable="DIAGONAIS" expression="LADOS*(LADOS-3)/2"/>
+            <output expression="&quot;O NUMERO DE DIAGONAIS &#201; DE:&quot;" newline="True"/>
+            <output expression="DIAGONAIS" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

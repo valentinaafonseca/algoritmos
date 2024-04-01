@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 09:25:59 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA2OyIwODo1MToxNSAiOzMxMzc="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA2OyIwOToyNTo1OSAiOzI7MzI1Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, a1, b1, c1, a2, b2, c2, soma, a3, b3, c3, soma1, dig" type="Integer" array="False" size=""/>
+            <input variable="num1"/>
+            <assign variable="a1" expression="num1/100"/>
+            <assign variable="b1" expression="num1%100/10"/>
+            <assign variable="c1" expression="num1%100%10"/>
+            <assign variable="a2" expression="c1"/>
+            <assign variable="b2" expression="b1"/>
+            <assign variable="c2" expression="a1"/>
+            <assign variable="num2" expression="a2*100+b2*10+c2"/>
+            <assign variable="soma" expression="num1+num2"/>
+            <assign variable="a3" expression="soma/100"/>
+            <assign variable="b3" expression="soma%100/10"/>
+            <assign variable="c3" expression="soma%100%10"/>
+            <assign variable="soma1" expression="a3+b3*2+c3*3"/>
+            <assign variable="dig" expression="soma1%10"/>
+            <output expression="dig" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-24 10:48:58 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7REVTS1RPUC1RNUZLNFNROzIwMjQtMDEtMjQ7IjA5OjQyOjI5ICI7Mzk1Mw=="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7REVTS1RPUC1RNUZLNFNROzIwMjQtMDEtMjQ7IjEwOjQ4OjU4ICI7MTs0MDYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, soma" type="Integer" array="False" size=""/>
+            <declare name="divisao" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="soma" expression="a+b+c"/>
+            <assign variable="divisao" expression="soma/3"/>
+            <output expression="soma" newline="True"/>
+            <output expression="divisao" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:54:25 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwMjo1MTo0MyAiOzMxMzA="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwMjo1NDoyNSAiOzE7MzI0MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cc, vc, dp, kpl" type="Real" array="False" size=""/>
+            <input variable="vc"/>
+            <input variable="dp"/>
+            <input variable="kpl"/>
+            <assign variable="cc" expression="vc*dp/kpl"/>
+            <output expression="&quot;Voce precisara dar R $&quot;&amp;cc&amp;&quot; &quot;&amp;&quot;de gasolina pro seu carro beber e te levar ao destino&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

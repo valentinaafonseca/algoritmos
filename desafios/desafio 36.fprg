@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 01:55:03 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA2OyIwMTo1NDoxMyAiOzMxMzE="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA2OyIwMTo1NDo0MyAiOzE7R2FicmllbC5Mb3BlcztOVDM1OzIwMjQtMDMtMDY7IjExOjA3OjMxICI7ZGVzYWZpbzAzNi5mcHJnOzc0Mjc="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA2OyIwMTo1NTowMyAiOzE7MzIzOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, soma, i" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="1"/>
+            <assign variable="b" expression="1"/>
+            <assign variable="soma" expression="0"/>
+            <for variable="i" start="3" end="10" direction="inc" step="1">
+                <assign variable="soma" expression="a+b"/>
+                <assign variable="a" expression="b"/>
+                <assign variable="b" expression="soma"/>
+            </for>
+            <output expression="soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

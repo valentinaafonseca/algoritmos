@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:16:59 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwMjoxMzo1NCAiOzMxMzA="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwMjoxNjo1OSAiOzE7MzI0Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="b, a, p, d" type="Integer" array="False" size=""/>
+            <input variable="b"/>
+            <input variable="a"/>
+            <input variable="p"/>
+            <assign variable="d" expression="(b^2)+(a^2)+(p^2)"/>
+            <output expression="&quot;A diagonal do paralelepipedo &#233; de &quot;&amp;&quot;&quot;&amp;d" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

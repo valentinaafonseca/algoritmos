@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:39:18 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwMjoxNzowMSAiOzMxMjY="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwMjozOToxOCAiOzE7MzI0Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="b, a, at" type="Integer" array="False" size=""/>
+            <input variable="b"/>
+            <input variable="a"/>
+            <assign variable="at" expression="(b*a)/2"/>
+            <output expression="&quot;A area do triangulo &#233;&quot;&amp;&quot;&quot;&amp; at" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

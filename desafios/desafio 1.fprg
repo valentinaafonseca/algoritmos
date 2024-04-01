@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Valentina.Fonseca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 10:55:14 "/>
+        <attribute name="created" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIwODoxNjozMSAiOzMxMzQ="/>
+        <attribute name="edited" value="VmFsZW50aW5hLkZvbnNlY2E7TlQ0NDsyMDI0LTAzLTA0OyIxMDo1NToxNCAiOzU7MzI0Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dd, mm, aaaa, data" type="Integer" array="False" size=""/>
+            <input variable="data"/>
+            <input variable="dd"/>
+            <input variable="mm"/>
+            <input variable="aaaa"/>
+            <assign variable="data" expression="04/03/2024"/>
+            <assign variable="dd" expression="04"/>
+            <assign variable="mm" expression="03"/>
+            <assign variable="aaaa" expression="2024"/>
+            <output expression="dd &amp; &quot; / &quot;&amp;mm&amp;&quot;/&quot;&amp;aaaa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
